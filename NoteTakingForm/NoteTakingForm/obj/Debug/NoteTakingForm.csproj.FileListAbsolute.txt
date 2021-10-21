@@ -1,0 +1,10 @@
+C:\Users\flynn\OneDrive\Documents\devCodeCamp\Week_09\Projects\NoteTakingFormCSharp\NoteTakingForm\NoteTakingForm\bin\Debug\NoteTakingForm.exe.config
+C:\Users\flynn\OneDrive\Documents\devCodeCamp\Week_09\Projects\NoteTakingFormCSharp\NoteTakingForm\NoteTakingForm\bin\Debug\NoteTakingForm.exe
+C:\Users\flynn\OneDrive\Documents\devCodeCamp\Week_09\Projects\NoteTakingFormCSharp\NoteTakingForm\NoteTakingForm\bin\Debug\NoteTakingForm.pdb
+C:\Users\flynn\OneDrive\Documents\devCodeCamp\Week_09\Projects\NoteTakingFormCSharp\NoteTakingForm\NoteTakingForm\obj\Debug\NoteTakingForm.csprojAssemblyReference.cache
+C:\Users\flynn\OneDrive\Documents\devCodeCamp\Week_09\Projects\NoteTakingFormCSharp\NoteTakingForm\NoteTakingForm\obj\Debug\NoteTakingForm.Form1.resources
+C:\Users\flynn\OneDrive\Documents\devCodeCamp\Week_09\Projects\NoteTakingFormCSharp\NoteTakingForm\NoteTakingForm\obj\Debug\NoteTakingForm.Properties.Resources.resources
+C:\Users\flynn\OneDrive\Documents\devCodeCamp\Week_09\Projects\NoteTakingFormCSharp\NoteTakingForm\NoteTakingForm\obj\Debug\NoteTakingForm.csproj.GenerateResource.cache
+C:\Users\flynn\OneDrive\Documents\devCodeCamp\Week_09\Projects\NoteTakingFormCSharp\NoteTakingForm\NoteTakingForm\obj\Debug\NoteTakingForm.csproj.CoreCompileInputs.cache
+C:\Users\flynn\OneDrive\Documents\devCodeCamp\Week_09\Projects\NoteTakingFormCSharp\NoteTakingForm\NoteTakingForm\obj\Debug\NoteTakingForm.exe
+C:\Users\flynn\OneDrive\Documents\devCodeCamp\Week_09\Projects\NoteTakingFormCSharp\NoteTakingForm\NoteTakingForm\obj\Debug\NoteTakingForm.pdb
