@@ -52,5 +52,12 @@ namespace NoteTakingForm
                 txtMessage.Text = table.Rows[index].ItemArray[1].ToString();
             }
         }
+
+        private void bttnDelete_Click(object sender, EventArgs e)
+        {
+            int index = dataGridView1.CurrentCell.RowIndex;
+
+            table.Rows[index].Delete();
+        }
     }
 }

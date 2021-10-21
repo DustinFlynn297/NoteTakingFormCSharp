@@ -29,8 +29,8 @@ namespace NoteTakingForm
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.Title = new System.Windows.Forms.Label();
+            this.Message = new System.Windows.Forms.Label();
             this.txtTitle = new System.Windows.Forms.TextBox();
             this.txtMessage = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -41,46 +41,48 @@ namespace NoteTakingForm
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // Title
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(124, 86);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(27, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Title";
+            this.Title.AutoSize = true;
+            this.Title.Location = new System.Drawing.Point(124, 86);
+            this.Title.Name = "Title";
+            this.Title.Size = new System.Drawing.Size(27, 13);
+            this.Title.TabIndex = 0;
+            this.Title.Text = "Title";
             // 
-            // label2
+            // Message
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(101, 125);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Message";
+            this.Message.AutoSize = true;
+            this.Message.Location = new System.Drawing.Point(101, 125);
+            this.Message.Name = "Message";
+            this.Message.Size = new System.Drawing.Size(50, 13);
+            this.Message.TabIndex = 1;
+            this.Message.Text = "Message";
             // 
             // txtTitle
             // 
             this.txtTitle.Location = new System.Drawing.Point(183, 83);
             this.txtTitle.Name = "txtTitle";
-            this.txtTitle.Size = new System.Drawing.Size(100, 20);
+            this.txtTitle.Size = new System.Drawing.Size(133, 20);
             this.txtTitle.TabIndex = 2;
-            this.txtTitle.Text = "txtTitle";
             // 
             // txtMessage
             // 
             this.txtMessage.Location = new System.Drawing.Point(183, 122);
             this.txtMessage.Multiline = true;
             this.txtMessage.Name = "txtMessage";
-            this.txtMessage.Size = new System.Drawing.Size(200, 129);
+            this.txtMessage.Size = new System.Drawing.Size(200, 157);
             this.txtMessage.TabIndex = 3;
-            this.txtMessage.Text = "txtMessage";
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AllowUserToResizeColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(443, 86);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.Size = new System.Drawing.Size(177, 193);
             this.dataGridView1.TabIndex = 4;
             // 
@@ -122,6 +124,7 @@ namespace NoteTakingForm
             this.bttnDelete.TabIndex = 8;
             this.bttnDelete.Text = "Delete";
             this.bttnDelete.UseVisualStyleBackColor = true;
+            this.bttnDelete.Click += new System.EventHandler(this.bttnDelete_Click);
             // 
             // Form1
             // 
@@ -135,8 +138,8 @@ namespace NoteTakingForm
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.txtMessage);
             this.Controls.Add(this.txtTitle);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Message);
+            this.Controls.Add(this.Title);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -148,8 +151,8 @@ namespace NoteTakingForm
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label Title;
+        private System.Windows.Forms.Label Message;
         private System.Windows.Forms.TextBox txtTitle;
         private System.Windows.Forms.TextBox txtMessage;
         private System.Windows.Forms.DataGridView dataGridView1;
